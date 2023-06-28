@@ -67,6 +67,7 @@ namespace EverythingToolbar
             ShortcutManager.Instance.CaptureKeyboard(OnKeyPressedReleased);
         }
 
+        // TODO: THIS COULD BE THE PROBLEM
         private void OnLostKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
         {
             ShortcutManager.Instance.ReleaseKeyboard();
